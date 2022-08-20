@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2.0/dist/flickity.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/blog.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__navbar">
+          <div class="navbar__logo">
+            <a href="./index.html">
+              <img src="./assets/images/Digiency.svg" alt="" />
+            </a>
+          </div>
+          <ul class="navbar__list">
+            <li class="navbar__item">
+              <a href="/index.html" class="navbar__link">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a href="./product.html" class="navbar__link">About Us</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#" class="navbar__link">Our Work</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#" class="navbar__link">Clients</a>
+            </li>
+            <li class="navbar__item">
+              <a href="./blog.html" class="navbar__link">Our Blog</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#" class="navbar__link">Contact Us</a>
+            </li>
+          </ul>
+          <div class="navbar__icon">
+            <img src="./assets/images/Light.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <header class="mobile__header">
+      <div class="container">
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+
+          <div class="overlay-content">
+            <a href="./index.html">Home</a>
+            <a href="./product.html">About Us</a>
+            <a href="#">Our Work</a>
+            <a href="#">Clients</a>
+            <a href="./blog.html">Our Blog</a>
+            <a href="#">Contact Us</a>
+          </div>
+        </div>
+        <div class="logo">
+          <a href="#"><img src="./assets/images/Digiency.svg" alt="" /></a>
+          <img src="./assets/images/Light.svg" alt="" />
+          <span onclick="openNav()"><i class="fa-solid fa-bars"></i></span>
+        </div>
+      </div>
+    </header>
+
+    <div class="showcase">
+      <div class="container">
+        <div class="showcase__info">
+          <h1>Our Blog</h1>
+          <p>Home - Blog Page</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card__wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-8 col-md-8 card__wrapper_col1">
+            <div class="card__wrapper_cards">
+              <div class="card">
+                <div class="card-header">
+                  <img src="./assets/images/Image (14).png" alt="" />
+                </div>
+                <div class="card-body">
+                  <div class="card__info">
+                    <div class="taim">
+                      <img src="./assets/images/timer.png" alt="" />
+                      <p>January 25, 2021</p>
+                    </div>
+                    <div class="person">
+                      <img src="./assets/images/person.png" alt="" />
+                      <p>Cristofer Westervelt</p>
+                    </div>
+                    <div class="comment">
+                      <img src="./assets/images/message-circle.png" alt="" />
+                      <p>10 Comment</p>
+                    </div>
+                  </div>
+                  <div class="card__body_info">
+                    <h4 class="card__body_title">
+                      35 Stellar Graphic Design Blogs to Keep You Educated and
+                      Inspired
+                    </h4>
+                    <p class="card__body_text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Ultrices facilisi sed tincidunt mauris duis pulvinar
+                      convallis eu. Lobortis scelerisque aliquam massa arcu,
+                      eget. Sociis odio quis eget lacus. Dolor at enim viverra
+                      laoreet molestie amet cursus et. Sed lacus, viverra
+                      lacinia scelerisque cras aliquam blandit.
+                    </p>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <button class="card__footer_btn">Read More</button>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <img src="./assets/images/Image (15).png" alt="" />
+                </div>
+                <div class="card-body">
+                  <div class="card__info">
+                    <div class="taim">
+                      <img src="./assets/images/timer.png" alt="" />
+                      <p>January 25, 2021</p>
+                    </div>
+                    <div class="person">
+                      <img src="./assets/images/person.png" alt="" />
+                      <p>Cristofer Westervelt</p>
+                    </div>
+                    <div class="comment">
+                      <img src="./assets/images/message-circle.png" alt="" />
+                      <p>10 Comment</p>
+                    </div>
+                  </div>
+                  <div class="card__body_info">
+                    <h4 class="card__body_title">
+                      35 Stellar Graphic Design Blogs to Keep You Educated and
+                      Inspired
+                    </h4>
+                    <p class="card__body_text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Ultrices facilisi sed tincidunt mauris duis pulvinar
+                      convallis eu. Lobortis scelerisque aliquam massa arcu,
+                      eget. Sociis odio quis eget lacus. Dolor at enim viverra
+                      laoreet molestie amet cursus et. Sed lacus, viverra
+                      lacinia scelerisque cras aliquam blandit.
+                    </p>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <button class="card__footer_btn">Read More</button>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <img src="./assets/images/Image (16).png" alt="" />
+                </div>
+                <div class="card-body">
+                  <div class="card__info">
+                    <div class="taim">
+                      <img src="./assets/images/timer.png" alt="" />
+                      <p>January 25, 2021</p>
+                    </div>
+                    <div class="person">
+                      <img src="./assets/images/person.png" alt="" />
+                      <p>Cristofer Westervelt</p>
+                    </div>
+                    <div class="comment">
+                      <img src="./assets/images/message-circle.png" alt="" />
+                      <p>10 Comment</p>
+                    </div>
+                  </div>
+                  <div class="card__body_info">
+                    <h4 class="card__body_title">
+                      35 Stellar Graphic Design Blogs to Keep You Educated and
+                      Inspired
+                    </h4>
+                    <p class="card__body_text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Ultrices facilisi sed tincidunt mauris duis pulvinar
+                      convallis eu. Lobortis scelerisque aliquam massa arcu,
+                      eget. Sociis odio quis eget lacus. Dolor at enim viverra
+                      laoreet molestie amet cursus et. Sed lacus, viverra
+                      lacinia scelerisque cras aliquam blandit.
+                    </p>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <button class="card__footer_btn">Read More</button>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <img src="./assets/images/Image (17).png" alt="" />
+                </div>
+                <div class="card-body">
+                  <div class="card__info">
+                    <div class="taim">
+                      <img src="./assets/images/timer.png" alt="" />
+                      <p>January 25, 2021</p>
+                    </div>
+                    <div class="person">
+                      <img src="./assets/images/person.png" alt="" />
+                      <p>Cristofer Westervelt</p>
+                    </div>
+                    <div class="comment">
+                      <img src="./assets/images/message-circle.png" alt="" />
+                      <p>10 Comment</p>
+                    </div>
+                  </div>
+                  <div class="card__body_info">
+                    <h4 class="card__body_title">
+                      35 Stellar Graphic Design Blogs to Keep You Educated and
+                      Inspired
+                    </h4>
+                    <p class="card__body_text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Ultrices facilisi sed tincidunt mauris duis pulvinar
+                      convallis eu. Lobortis scelerisque aliquam massa arcu,
+                      eget. Sociis odio quis eget lacus. Dolor at enim viverra
+                      laoreet molestie amet cursus et. Sed lacus, viverra
+                      lacinia scelerisque cras aliquam blandit.
+                    </p>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <button class="card__footer_btn">Read More</button>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header">
+                  <img src="./assets/images/Image (18).png" alt="" />
+                </div>
+                <div class="card-body">
+                  <div class="card__info">
+                    <div class="taim">
+                      <img src="./assets/images/timer.png" alt="" />
+                      <p>January 25, 2021</p>
+                    </div>
+                    <div class="person">
+                      <img src="./assets/images/person.png" alt="" />
+                      <p>Cristofer Westervelt</p>
+                    </div>
+                    <div class="comment">
+                      <img src="./assets/images/message-circle.png" alt="" />
+                      <p>10 Comment</p>
+                    </div>
+                  </div>
+                  <div class="card__body_info">
+                    <h4 class="card__body_title">
+                      35 Stellar Graphic Design Blogs to Keep You Educated and
+                      Inspired
+                    </h4>
+                    <p class="card__body_text">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Ultrices facilisi sed tincidunt mauris duis pulvinar
+                      convallis eu. Lobortis scelerisque aliquam massa arcu,
+                      eget. Sociis odio quis eget lacus. Dolor at enim viverra
+                      laoreet molestie amet cursus et. Sed lacus, viverra
+                      lacinia scelerisque cras aliquam blandit.
+                    </p>
+                  </div>
+                </div>
+                <div class="card-footer">
+                  <button class="card__footer_btn">Read More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-4 card__wrapper_col2">
+            <div class="search">
+              <input type="search" placeholder="Search here..." />
+              <i type="submit" class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="card__wrapper_post">
+              <h2>Letest Post</h2>
+              <div class="post">
+                <div class="post__image">
+                  <img src="./assets/images/Image (19).png" alt="" />
+                  <p>Minimal Post With A Preview Image</p>
+                </div>
+                <div class="post__image">
+                  <img src="./assets/images/Image (20).png" alt="" />
+                  <p>Good Design Makes Me Happy</p>
+                </div>
+                <div class="post__image">
+                  <img src="./assets/images/Image (21).png" alt="" />
+                  <p>Best 27 Design Blogs for 2021</p>
+                </div>
+                <div class="post__image">
+                  <img src="./assets/images/Image (22).png" alt="" />
+                  <p>Creative Ways To Use Infographics For Your Business</p>
+                </div>
+                <div class="post__image">
+                  <img src="./assets/images/Image (23).png" alt="" />
+                  <p>Tumblr Banner Templates : Tips To Get Better Engagement</p>
+                </div>
+              </div>
+            </div>
+            <div class="card__wrapper_categories">
+              <h2>Categories</h2>
+              <ul class="categories__list">
+                <li>
+                  <a href="#"
+                    ><p class="categories__text1">Business</p>
+                    <p class="categories__text2">05</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><p class="categories__text1">Introductions</p>
+                    <p class="categories__text2">15</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><p class="categories__text1">Design Blog</p>
+                    <p class="categories__text2">65</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><p class="categories__text1">UI/UX Design</p>
+                    <p class="categories__text2">08</p>
+                  </a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><p class="categories__text1">App Development</p>
+                    <p class="categories__text2">16</p>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="card__wrapper_tags">
+              <h2>Tags</h2>
+              <div class="tags__link">
+                <a href="#">Business</a>
+                <a href="#">Graphic Design</a>
+                <a href="#">Technology</a>
+                <a href="#">App Development</a>
+                <a href="#">Website Design</a>
+                <a href="#">Business Idea</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row footer__row">
+          <div class="col-xl-3 col-lg-4 col-md-6 footer__col1">
+            <div class="footer__logo">
+              <a href="#"><img src="./assets/images/Digiency.svg" alt="" /></a>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit a
+              laoreet libero dis eget maecenas bibendum.
+            </p>
+            <div class="footer__media">
+              <ul class="media__list">
+                <li>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-skype"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 footer__col2">
+            <ul class="footer__nav">
+              <h2>Company</h2>
+              <li class="footer__item">
+                <a href="#" class="footer__link">About Us</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Our Work</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Client</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Our Blog</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Contact US</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 footer__col2">
+            <ul class="footer__nav">
+              <h2>Sevices</h2>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Graphic Design</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">UI/UX Design</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Web Development</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">App Development</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Web Hosting</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 footer__col3">
+            <h2>Newsletter</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+              eget varius viverra in.
+            </p>
+            <form>
+              <input type="email" placeholder="info@gmail.com" />
+              <button class="footer__form_btn">
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="black">
+      <div class="container">
+        <div class="black__sec">
+          <p>Copyright 2021. All Right Reserved By Ojjomedia</p>
+          <a href="#"><img src="./assets/images/Vector.png" alt="" /></a>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      /* Open when someone clicks on the span element */
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+
+      /* Close when someone clicks on the "x" symbol inside the overlay */
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+  </body>
+</html>
+
+<!-- 
+function isPrime(num) {
+    for (let i = 2; i * i <= num; i++)
+        if (num % i === 0)
+          return false; 
+    return num > 1; -->

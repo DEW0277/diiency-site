@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digiency</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2.0/dist/flickity.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+  <body>
+
+    <div class="fixed__navbar">
+      <ul>
+        <li>
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-brands fa-skype"></i></a>
+        </li>
+      </ul>
+    </div>
+
+    <header class="header">
+      <div class="container">
+        <div class="header__navbar">
+          <div class="navbar__logo">
+            <a href="./index.html">
+              <img src="./assets/images/Digiency.svg" alt="" />
+            </a>
+          </div>
+          <ul class="navbar__list">
+            <li class="navbar__item">
+              <a href="./index.html" class="navbar__link">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a href="./product.html" class="navbar__link">About Us</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#" class="navbar__link">Our Work</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#" class="navbar__link">Clients</a>
+            </li>
+            <li class="navbar__item">
+              <a href="./blog.html" class="navbar__link">Our Blog</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#" class="navbar__link">Contact Us</a>
+            </li>
+          </ul>
+          <div class="navbar__icon">
+            <img src="./assets/images/Light.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <header class="mobile__header">
+      <div class="container">
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+            >&times;</a
+          >
+
+          <div class="overlay-content">
+            <a href="./index.html">Home</a>
+            <a href="./product.html">About Us</a>
+            <a href="#">Our Work</a>
+            <a href="#">Clients</a>
+            <a href="./blog.html">Our Blog</a>
+            <a href="#">Contact Us</a>
+          </div>
+        </div>
+        <div class="logo">
+          <a href="#"><img src="./assets/images/Digiency.svg" alt="" /></a>
+          <img src="./assets/images/Light.svg" alt="" />
+          <span onclick="openNav()"><i class="fa-solid fa-bars"></i></span>
+        </div>
+      </div>
+    </header>
+
+    <div class="showcase">
+      <div class="container">
+        <div class="row showcase__row">
+          <div class="col-xl-6 col-lg-6 col-md-12 showcase__left">
+            <div class="showcase__info">
+              <h1 class="showcase__title">
+                We Are The Best <span>Digital Agency</span> for business
+              </h1>
+              <p class="showcase__text">
+                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+                amet sint. Velit officia consequat duis enim velit mollit.
+                Exercitation veniam consequat sunt nostrud amet.
+              </p>
+              <button class="showcase__btn">Contact Us</button>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-12 showcase__right">
+            <div class="showcase__image">
+              <img src="./assets/images/showcase.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about">
+      <div class="container">
+        <div class="row about__row">
+          <div class="col-xl-6 col-lg-6 about__left">
+            <div class="about__image">
+              <img src="./assets/images/about.png" alt="" />
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-6 mt-5 about__right">
+            <a href="#about">About Us</a>
+            <h1 class="about__title">
+              We Are <span>Making Ideas Better</span> For Everyone
+            </h1>
+            <p class="about__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur
+              imperdiet at a augue ullamcorper. Leo faucibus feugiat rutrum
+              aenean. Nisi, lectus aliquet aliquam consectetur augue praesent.
+              Lorem vulputate orci eget mi, sed pulvinar. <br />
+              <br />
+              Ornare etiam erat volutpat tempor fringilla mi. Elit a blandit
+              faucibus est, dui interdum ut amet. Adipiscing feugiat vel at
+              posuere in. Pellentesque volutpat vestibulum.
+            </p>
+            <button class="about__btn">Contact Us</button>
+          </div>
+        </div>
+        <div class="row about__row_cards">
+          <div class="col-xl-3 mt-4 col-lg-3 col-md-3 about__col_cards">
+            <div class="about__card">
+              <img src="./assets/images/Icon-removebg-preview.png" alt="" />
+              <p>World leader in consulting and finance</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-3 mt-4 about__col_cards">
+            <div class="about__card">
+              <img src="./assets/images/Icon__1_-removebg-preview.png" alt="" />
+              <p>World leader in consulting and finance</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-3 mt-4 about__col_cards">
+            <div class="about__card">
+              <img src="./assets/images/Icon__2_-removebg-preview.png" alt="" />
+              <p>World leader in consulting and finance</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 col-md-3 mt-4 about__col_cards">
+            <div class="about__card">
+              <img src="./assets/images/Icon__3_-removebg-preview.png" alt="" />
+              <p>World leader in consulting and finance</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="expereince">
+      <div class="container">
+        <div class="row expereince__row">
+          <div class="col-xl-6 col-lg-6 mt-5 col-md-6 expereince__left">
+            <a href="#expereince">Our Expereince</a>
+            <h1 class="expereince__title">
+              We Have Completed <span>150+ Projects</span> Succesfully
+            </h1>
+            <p class="expereince__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nascetur
+              imperdiet at a augue ullamcorper. Leo faucibus feugiat rutrum
+              aenean. Nisi, lectus aliquet aliquam consectetur augue praesent.
+              Lorem vulputate orci eget mi, sed pulvinar. <br />
+              <br />
+              Ornare etiam erat volutpat tempor fringilla mi. Elit a blandit
+              faucibus est, dui interdum ut amet. Adipiscing feugiat vel at
+              posuere in. Pellentesque volutpat vestibulum.
+            </p>
+            <button class="expereince__btn">Contact Us</button>
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-6 mt-5 expereince__right">
+            <div class="row">
+              <div class="col-xl-6 col-lg-6 col-md-6 col1">
+                <div class="expereince__card">
+                  <div class="expereinece__card">
+                    <h1>250+</h1>
+                    <p>Global Customer</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 mt-5 col1">
+                <div class="expereinece__card">
+                  <h1>156+</h1>
+                  <p>Team Member</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xl-6 col-lg-6 col-md-6 mt-4 col1">
+                <div class="expereince__card">
+                  <div class="expereinece__card">
+                    <h1>50+</h1>
+                    <p>Project Completed</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-6 col-md-6 mt-5 col1">
+                <div class="expereinece__card">
+                  <h1>15+</h1>
+                  <p>Our Company</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="team">
+      <div class="container">
+        <div class="team__title text-center">
+          <a href="#team">Team Member</a>
+          <h1>
+            We Have <br />
+            <span>Some Awesome</span> People
+          </h1>
+        </div>
+        <div class="row">
+          <div class="col-xl-3 col-sm-12 mt-5 col-md-6 col-lg-3 team__cards">
+            <div class="card">
+              <div class="card-header">
+                <img src="./assets/images/Image.png" alt="" />
+                <div class="fixed__navbar">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-skype"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body text-center">
+                <h3>Gustavo Herwitz</h3>
+                <p>UI/UX Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 cols-m-12 mt-5 col-md-6 col-lg-3 team__cards">
+            <div class="card">
+              <div class="card-header">
+                <img src="./assets/images/Image (1).png" alt="" />
+                <div class="fixed__navbar">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-skype"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body text-center">
+                <h3>Phillip Curtis</h3>
+                <p>Graphic Designer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-sm-12 mt-5 col-md-6 col-lg-3 team__cards">
+            <div class="card">
+              <div class="card-header">
+                <img src="./assets/images/Image (2).png" alt="" />
+                <div class="fixed__navbar">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-skype"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body text-center">
+                <h3>Talan Torff</h3>
+                <p>Web Developer</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-sm-12 mt-5 col-md-6 col-lg-3 team__cards">
+            <div class="card">
+              <div class="card-header">
+                <img src="./assets/images/Image (3).png" alt="" />
+                <div class="fixed__navbar">
+                  <ul>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li>
+                      <a href="#"><i class="fa-brands fa-skype"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="card-body text-center">
+                <h3>Abram Vaccaro</h3>
+                <p>App Developer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="work">
+      <div class="container">
+        <div class="work__title">
+          <a href="#work">Our Work</a>
+          <h1>
+            We Have Some <br />
+            <span>Designed & Development</span> Projects
+          </h1>
+        </div>
+        <div class="work__links">
+          <a class="active" href="#">All</a>
+          <a href="#">Graphic Design</a>
+          <a href="#">UI/UX Design</a>
+          <a href="#">Web Development</a>
+        </div>
+        <div class="row work__row1">
+          <div class="col-xl-4 mt-5 col-lg-4 col-md-6 work__col">
+            <div class="work__image">
+              <a href="#">
+                <div class="work__image_info">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <h4>Latest work</h4>
+                  <p>UI/UX Design</p>
+                </div>
+                <img src="./assets/images/Image (4).png" alt="" />
+              </a>
+
+              <a href="#">
+                <div class="work__image_info">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <h4>Latest work</h4>
+                  <p>UI/UX Design</p>
+                </div>
+                <img src="./assets/images/Image (5).png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="col-xl-4 mt-5 col-lg-4 col-md-6 work__col">
+            <div class="work__image">
+              <a href="#">
+                <div class="work__image_info">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <h4>Latest work</h4>
+                  <p>UI/UX Design</p>
+                </div>
+                <img src="./assets/images/Image (6).png" alt="" />
+              </a>
+              <a href="#">
+                <div class="work__image_info">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <h4>Latest work</h4>
+                  <p>UI/UX Design</p>
+                </div>
+                <img src="./assets/images/Image (7).png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="col-xl-4 mt-5 col-lg-4 col-md-6 work__col">
+            <div class="work__image">
+              <a href="#">
+                <div class="work__image_info">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <h4>Latest work</h4>
+                  <p>UI/UX Design</p>
+                </div>
+                <img src="./assets/images/Image (8).png" alt="" />
+              </a>
+              <a href="#">
+                <div class="work__image_info">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <h4>Latest work</h4>
+                  <p>UI/UX Design</p>
+                </div>
+                <img src="./assets/images/Image (9).png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="clients">
+      <div class="container">
+        <div class="clients__title">
+          <a href="#">Clients Feedback</a>
+          <h1>
+            Some
+            <span
+              >Great <br />
+              Words</span
+            >
+            From Our Clients
+          </h1>
+        </div>
+        <div class="row">
+          <div class="col-xl-5 mt-5 col-lg-6 col-md-12 client__col">
+            <div class="client__card">
+              <div class="card__img">
+                <img src="./assets/images/Profile.png" alt="" />
+                <div class="card__info">
+                  <h2>Justin Septimus</h2>
+                  <h3>CEO,word yt</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                    a laoreet libero dis eget maecenas bibendum. Morbi lacinia
+                    eu, etiam volutpat morbi et amet, sagittis adipiscing.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-2"></div>
+
+          <div class="col-xl-5 mt-5 col-lg-6 col-md-12 client__col">
+            <div class="client__card">
+              <div class="card__img">
+                <img src="./assets/images/Image (10).png" alt="" />
+                <div class="card__info">
+                  <h2>Justin Septimus</h2>
+                  <h3>CEO,word yt</h3>
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit
+                    a laoreet libero dis eget maecenas bibendum. Morbi lacinia
+                    eu, etiam volutpat morbi et amet, sagittis adipiscing.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="blog">
+      <div class="container">
+        <div class="blog__title">
+          <a href="#">Our Blog</a>
+          <h1>
+            Our Latest
+            <span
+              >Blogs <br />
+              Will Keep</span
+            >
+            Everyone Updated
+          </h1>
+        </div>
+        <div class="row">
+          <div class="col-xl-6 mt-5 col-lg-6 col-md-12 blog__col">
+            <div class="blog__card">
+              <a href="#">Graphic Design</a>
+              <div class="blog__header">
+                <p>
+                  35 Stellar Graphic Design Blogs to Keep You Educated and
+                  Inspired
+                </p>
+                <div class="image">
+                  <img src="./assets/images/Image (11).png" alt="" />
+                </div>
+              </div>
+              <div class="blog__footer">
+                <div class="footer__image">
+                  <img src="./assets/images/Profile (1).png" alt="" />
+                </div>
+                <div class="text">
+                  <h3>Cristofer Westervelt</h3>
+                  <p>January 25, 2021 / 5 min Read</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 mt-5 col-lg-6 col-md-12 blog__col">
+            <div class="blog__card">
+              <a href="#">Managing Director</a>
+              <div class="blog__header">
+                <p>Ridiculously powerful 2021 iPad Pro may drop this month</p>
+                <div class="image">
+                  <img src="./assets/images/Image (12).png" alt="" />
+                </div>
+              </div>
+              <div class="blog__footer">
+                <div class="footer__image">
+                  <img src="./assets/images/Profile (2).png" alt="" />
+                </div>
+                <div class="text">
+                  <h3>Haylie Mango</h3>
+                  <p>January 25, 2021 / 5 min Read</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact">
+      <div class="container">
+        <div class="contact__title">
+          <a href="#">Contact Us</a>
+          <h1>
+            Feel
+            <span
+              >Free <br />
+              to Contact</span
+            >
+            With Us
+          </h1>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-5 contact__col">
+            <div class="contact__card">
+              <div class="contact__info">
+                <div class="contact__img">
+                  <img src="./assets/images/mail.png" alt="" />
+                </div>
+                <div class="contact__text">
+                  <p>Drop a line</p>
+                  <h3>Mail Us</h3>
+                </div>
+              </div>
+              <div class="contact__footer">
+                <a href="mailto: Support87@gmial.com">Support87@gmial.com</a>
+                <a href="mailto: ijkuiu874@gmial.com">ijkuiu874@gmial.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-5 contact__col">
+            <div class="contact__card">
+              <div class="contact__info">
+                <div class="contact__img">
+                  <img src="./assets/images/phone-call.png" alt="" />
+                </div>
+                <div class="contact__text">
+                  <p>24/7 Service</p>
+                  <h3>Call Us</h3>
+                </div>
+              </div>
+              <div class="contact__footer">
+                <a href="tel: +880 265 98745 ">+880 265 98745</a>
+                <a href="tel: +880 265 98745 ">+895 855 85589</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mt-5 contact__col">
+            <div class="contact__card">
+              <div class="contact__info">
+                <div class="contact__img">
+                  <img src="./assets/images/map-pin.png" alt="" />
+                </div>
+                <div class="contact__text">
+                  <p>Location</p>
+                  <h3>Visit Us</h3>
+                </div>
+              </div>
+              <div class="contact__footer">
+                <a href="#">158 ralegih sit,</a>
+                <a href="#">houston, yk 5896,uk</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row contact__row1">
+          <div class="col-xl-6 text-center contact__col1">
+            <div class="form__image">
+              <img src="./assets/images/form.png" alt="" />
+            </div>
+          </div>
+          <div class="col-xl-6 contact__col2">
+            <h2>Send Your <span>Message To Us</span></h2>
+            <form>
+              <div class="row form__row1 mt-4">
+                <div class="col-xl-6 col1 mt-4">
+                  <input type="text" placeholder="Name" />
+                </div>
+                <div class="col-xl-6 col1 mt-4">
+                  <input type="email" placeholder="Email" />
+                </div>
+              </div>
+              <div class="row form__row1 mt-4">
+                <div class="col-xl-6 col1 mt-4">
+                  <input type="number" placeholder="Mobile No" />
+                </div>
+                <div class="col-xl-6 col1 mt-4">
+                  <input type="text" placeholder="Subject" />
+                </div>
+              </div>
+              <div class="row form__row1 mt-4">
+                <div class="col-xl-12 col2">
+                  <textarea
+                    class="textarea"
+                    name="massage"
+                    id="massage"
+                    cols="30"
+                    rows="10"
+                    placeholder="Send Massage"
+                  ></textarea>
+                </div>
+              </div>
+              <button type="submit" class="form__btn">Send Massage</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="location">
+      <div class="container">
+        <div class="row">
+          <div class="co-xl-12">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2563.533277191972!2d69.24425692115776!3d41.31665895175714!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b40d847941d%3A0x5765a18b352df71e!2sTashkent%20City%20Park!5e1!3m2!1sru!2s!4v1661007623418!5m2!1sru!2s"
+              width="100%"
+              height="500"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hamkorlar">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-lg-3 mt-5 text-center col-md-6 col-sm-6">
+            <div class="image">
+              <img
+                src="./assets/images/Group__1_-removebg-preview.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 mt-5 text-center col-md-6 col-sm-6">
+            <div class="image">
+              <img
+                src="./assets/images/Group__2_-removebg-preview.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 mt-5 text-center col-md-6 col-sm-6">
+            <div class="image">
+              <img
+                src="./assets/images/Group__3_-removebg-preview.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-3 mt-5 text-center col-md-6 col-sm-6">
+            <div class="image">
+              <img
+                src="./assets/images/Group__4_-removebg-preview.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row footer__row">
+          <div class="col-xl-3 col-lg-4 col-md-6 footer__col1">
+            <div class="footer__logo">
+              <a href="#"><img src="./assets/images/Digiency.svg" alt="" /></a>
+            </div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit a
+              laoreet libero dis eget maecenas bibendum.
+            </p>
+            <div class="footer__media">
+              <ul class="media__list">
+                <li>
+                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa-brands fa-skype"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3  col-lg-4 col-md-6 footer__col2">
+            <ul class="footer__nav">
+              <h2>Company</h2>
+              <li class="footer__item">
+                <a href="#" class="footer__link">About Us</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Our Work</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Client</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Our Blog</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Contact US</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 footer__col2">
+            <ul class="footer__nav">
+              <h2>Sevices</h2>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Graphic Design</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">UI/UX Design</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Web Development</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">App Development</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Web Hosting</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 footer__col3">
+            <h2>Newsletter</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+              eget varius viverra in.
+            </p>
+            <form>
+              <input type="email" placeholder="info@gmail.com">
+              <button class="footer__form_btn">
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="black">
+      <div class="container">
+        <div class="black__sec">
+          <p>Copyright 2021. All Right Reserved By Ojjomedia</p>
+        <a href="#"><img src="./assets/images/Vector.png" alt=""></a>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      /* Open when someone clicks on the span element */
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+
+      /* Close when someone clicks on the "x" symbol inside the overlay */
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="https://unpkg.com/flickity@2.0/dist/flickity.pkgd.min.js"></script>
+  </body>
+</html>
